@@ -1,5 +1,5 @@
 {
-      "name": "Skyzu Robot",
+      "name": "Robot Oura",
       "description": "A Powerful  Telegram group management bot with anime theme.",
       "keywords": [
          "telegram",
@@ -9,8 +9,8 @@
          "naorobot"
       ],
     
-   "logo":    "https://telegra.ph/file/56811b69cbcece20bbebf.jpg",  
-   "repository": "https://github.com/Skyzu/SkyzuRobot",
+   "logo":    "https://telegra.ph/file/4a01f8e40295f0bf054b2.jpg",  
+   "repository": "https://github.com/Oura-Ubot/RobotOura",
    "addons": [
           {
          "options": {
@@ -69,7 +69,7 @@
       },
       "BOT_USERNAME": {
          "description": "username of your bot without the @",
-         "value": "SkyzuRobot"
+         "value": "RobotOura"
       },
 
       "BOT_ID": {
@@ -84,7 +84,7 @@
       "SUPPORT_CHAT": {
          "description": "Your Telegram support group chat username where your users will go and bother you with shit But be like: MyGroupChatUsernameBlah. If this ever points to masha support than consider you made an enemy.",
          "required": true,
-         "value": "skyzusupport"
+         "value": "OuraaSupport"
       },
       "MONGO_DB_URI": {
          "description": "Required for database connections.",
