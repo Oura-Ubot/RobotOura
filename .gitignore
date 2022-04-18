@@ -1,17 +1,17 @@
 # Config files, logs and stuff
-SkyzuRobot/modules/helper_funcs/temp.txt
-SkyzuRobot/elevated_users.json
-SkyzuRobot/config.py
-SkyzuRobot/config.ini
+RobotOura/modules/helper_funcs/temp.txt
+RobotOura/elevated_users.json
+RobotOura/config.py
+RobotOura/config.ini
 log.txt
 kangsticker.png
 updates.txt
 start_service.bat
 
 # Session files
-SkyzuRobot/*.session
-SkyzuRobot/*.session-journal
-Skyzu.session-journal
+RobotOura/*.session
+RobotOura/*.session-journal
+Oura-Ubot.session-journal
 *.session
 
 # Byte-compiled / optimized / DLL files
