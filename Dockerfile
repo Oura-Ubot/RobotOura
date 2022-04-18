@@ -8,11 +8,11 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
  && apt-get clean \
  && rm -rf /var/lib/apt/lists/*    
 
-WORKDIR /SkyzuRobot/
+WORKDIR /RobotOura/
 
 COPY requirements.txt .
 RUN pip3 install wheel
 RUN pip3 install --no-cache-dir -U -r requirements.txt
 
 COPY . .
-CMD ["python3.9", "-m", "SkyzuRobot"]
+CMD ["python3.9", "-m", "RobotOura"]
