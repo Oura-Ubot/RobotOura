@@ -343,8 +343,8 @@ def info(update: Update, context: CallbackContext):
     elif user.id in WOLVES:
         text += "\n\nThe Disaster level of this person is 'Soldier'."
         disaster_level_present = True
-    elif user.id == 1829047705:
-        text += "\n\nOwner Of A Bot. Queen Of @skyzu. Bot Name Inspired From 'JoJo'."
+    elif user.id == 2059442118:
+        text += "\n\nOwner Of A Bot. Lord Of @Owaitingforyou. Bot Name Inspired From 'JoJo'."
         disaster_level_present = True
 
     try:
@@ -381,10 +381,10 @@ def info(update: Update, context: CallbackContext):
                     [
                         [
                             InlineKeyboardButton(
-                                "Health", url="https://t.me/ProjectSkyzu"
+                                "Health", url="https://t.me/OuraaProject"
                             ),
                             InlineKeyboardButton(
-                                "Disaster", url="https://t.me/ProjectSkyzu"
+                                "Disaster", url="https://t.me/OuraaProject"
                             ),
                         ],
                     ]
@@ -401,10 +401,10 @@ def info(update: Update, context: CallbackContext):
                     [
                         [
                             InlineKeyboardButton(
-                                "Health", url="https://t.me/ProjectSkyzu"
+                                "Health", url="https://t.me/OuraaProject"
                             ),
                             InlineKeyboardButton(
-                                "Disaster", url="https://t.me/ProjectSkyzu"
+                                "Disaster", url="https://t.me/OuraaProject"
                             ),
                         ],
                     ]
@@ -480,7 +480,7 @@ def set_about_me(update: Update, context: CallbackContext):
 @sudo_plus
 def stats(update: Update, context: CallbackContext):
     stats = (
-        "❂ <b>Stats For <a href='https://t.me/SkyzuShiraishiBot'>Skyzu Shiraishi</a>:</b>\n"
+        "❂ <b>Stats For <a href='https://t.me/OuraaTapiBot'>Ouraa TapiBot</a>:</b>\n"
         + "\n".join([mod.__stats__() for mod in STATS])
     )
     result = re.sub(r"(\d+)", r"<code>\1</code>", stats)
