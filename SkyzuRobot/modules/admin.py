@@ -16,16 +16,16 @@ from SkyzuRobot.modules.helper_funcs.chat_status import (
     ADMIN_CACHE,
 )
 
-from SkyzuRobot.modules.helper_funcs.admin_rights import (
+from RobotOura.modules.helper_funcs.admin_rights import (
     user_can_changeinfo,
     user_can_promote,
 )
-from SkyzuRobot.modules.helper_funcs.extraction import (
+from RobotOura.modules.helper_funcs.extraction import (
     extract_user,
     extract_user_and_text,
 )
-from SkyzuRobot.modules.log_channel import loggable
-from SkyzuRobot.modules.helper_funcs.alternate import send_message
+from RobotOura.modules.log_channel import loggable
+from RobotOura.modules.helper_funcs.alternate import send_message
 
 
 @bot_admin
