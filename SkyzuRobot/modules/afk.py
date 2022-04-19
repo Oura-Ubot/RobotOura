@@ -1,12 +1,12 @@
 import random, html
 
-from SkyzuRobot import dispatcher
-from SkyzuRobot.modules.disable import (
+from RobotOura import dispatcher
+from RobotOura.modules.disable import (
     DisableAbleCommandHandler,
     DisableAbleMessageHandler,
 )
-from SkyzuRobot.modules.sql import afk_sql as sql
-from SkyzuRobot.modules.users import get_user_id
+from RobotOura.modules.sql import afk_sql as sql
+from RobotOura.modules.users import get_user_id
 from telegram import MessageEntity, Update
 from telegram.error import BadRequest
 from telegram import InlineKeyboardButton, InlineKeyboardMarkup, ParseMode, Update
